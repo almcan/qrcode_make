@@ -23,8 +23,7 @@ func main() {
 	if err != nil {
 		// エラーが発生した場合の処理
 		log.Println("アイコンファイルの読み込みに失敗しました:", err)
-		// ここでデフォルトアイコンを設定することもできます
-		// a.SetIcon(theme.FyneLogo()) // 例: Fyneのデフォルトロゴ
+		// a.SetIcon(theme.FyneLogo())
 	} else {
 		// 読み込みが成功したらアイコンを設定
 		a.SetIcon(iconResource)
