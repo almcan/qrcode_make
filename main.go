@@ -135,7 +135,7 @@ func main() {
 	// 入力用テキストエリア
 	inputEntry := widget.NewMultiLineEntry()
 	// プレースホルダーにショートカットキー情報を追加
-	inputEntry.SetPlaceHolder("QRコードにしたいテキストを入力してください...\n(例: https://example.com)\n(Ctrl+Enterで生成)")
+	inputEntry.SetPlaceHolder("QRコードにしたいテキストを入力してください...\n(例: https://example.com)")
 	inputEntry.Wrapping = fyne.TextWrapWord // 自動折り返し
 	inputEntry.SetMinRowsVisible(4)         // 最小表示行数
 
